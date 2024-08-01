@@ -1,0 +1,160 @@
+body{
+    background-color: lightgray;
+}
+.contenedor_principal {
+    display: flex;
+    background-color: white;
+    margin: 50px;
+}
+.contenedor_izquierdo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 23vh;
+    max-width: 23vh;
+
+}
+.contenedor_usuario_principal {
+    display:flex;
+    border: 0.1px, solid #cdcdcd;
+    padding: 10px;
+    height: 40px;
+}
+.contenedor_avatar_usario {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 25%;
+}
+.contenedor_avatar_usario img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.contenedor_nombre_usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    width: 45%;
+}
+.contenedor_nombre_usuario H1{
+    font-weight: bold;
+    font-size: 10px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    font: #1b1f21;
+}
+.contenedor_nombre_usuario p {
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    font: #1b1f21;
+}
+.contenedor_iconos_menu {
+    display:flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.contendor_ico_mensaje{
+    padding: 5px;
+}
+.contendor_ico_menu{
+    padding: 5px;
+}
+
+.contenedor_nuevo_mensaje {
+    display: flex;
+    border: 0.1px, solid #cdcdcd;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center; 
+}
+.boton_nm {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #a491d2;
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 0px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    height: 35px ;
+}
+button:hover {
+    background-color: #CDC3E6; 
+}
+button:focus {
+    outline: none; 
+    box-shadow: 0 0 5px #E8EBE4;
+}
+.contenedor_listado_contacto {
+    display:flex;
+    border: 0.1px, solid #cdcdcd;
+    padding: 10px;
+}
+.contenedor_avatar_contacto {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 25%;
+}
+.contenedor_avatar_contacto img{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+}
+.contenedor_nombre_contacto {
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor_nombre_contacto h1{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    font: #1b1f21;
+}
+.contenedor_nombre_contacto p{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    font: #1b1f21;
+}
+.contenedor_derecho {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    border: 0.1px, solid #cdcdcd;
+}
+.contenedor_logo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Regular', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+.contenedor_logo img {
+   width: 200px; 
+   border-radius: 7px; /* Bordes redondeados */
+}
+.contenedor_logo h1{
+    margin: 0;
+    padding: 0;
+    padding:0;
+    padding-top: 15px;
+    font-size: 45px;
+    font: #1b1f21;
+}
+.contenedor_logo p{
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    padding:0;
+    font: #1b1f21;
+}
